@@ -7,7 +7,8 @@ export function ResponsibleTourismSection() {
             책임 있는 여행
           </p>
           <h2 className="mt-5 text-3xl font-semibold leading-tight text-white md:text-5xl">
-            더 나은 경험과 바다 환경을 위해 예약 인원을 제한합니다.
+            <span className="block">더 나은 경험과 바다 환경을 위해</span>
+            <span className="block">예약 인원을 제한합니다.</span>
           </h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2">

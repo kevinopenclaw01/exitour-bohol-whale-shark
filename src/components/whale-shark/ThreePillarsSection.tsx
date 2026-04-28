@@ -18,8 +18,9 @@ export function ThreePillarsSection() {
           <p className="text-xs font-semibold text-cyan-200/70">
             보홀을 이루는 세 가지 장면
           </p>
-          <h2 className="mt-5 text-balance text-4xl font-semibold leading-tight text-white md:text-6xl">
-            보홀은 단순한 여행지가 아닙니다.
+          <h2 className="mt-5 text-4xl font-semibold leading-tight text-white md:text-6xl">
+            <span className="block">보홀은 단순한</span>
+            <span className="block">여행지가 아닙니다.</span>
           </h2>
           <p className="mt-6 text-lg leading-8 text-slate-300">
             오랜 세월이 빚어낸 지형과 살아 숨 쉬는 리프, 그리고 생동하는 해양 보호구역이 함께 어우러진 섬입니다.
