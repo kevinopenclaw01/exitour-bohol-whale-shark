@@ -4,13 +4,13 @@ const highlights = [
     title: "고래상어",
     image: "/images/bohol/whale-shark.png",
     alt: "엘버 포인트의 맑은 바다를 헤엄치는 고래상어",
-    note: "고래상어의 자연스러운 움직임을 존중하며, 충분한 거리와 차분한 관찰로 만나는 오픈워터 경험입니다."
+    note: "고래상어의 흐름을 따라, 충분한 거리와 조용한 시선으로 함께하는 오픈워터 경험입니다."
   },
   {
-    point: "나팔린 포인트",
+    point: "나팔링 포인트",
     title: "정어리떼",
     image: "/images/bohol/napaling-sardines.png",
-    alt: "나팔린 포인트의 푸른 바다를 가득 채운 정어리떼",
+    alt: "나팔링 포인트의 푸른 바다를 가득 채운 정어리떼",
     note: "팡라오 리프 월을 따라 은빛 정어리떼가 햇살과 함께 움직이는 장면을 가까이에서 느낄 수 있습니다."
   },
   {
@@ -18,7 +18,7 @@ const highlights = [
     title: "바다거북",
     image: "/images/bohol/balicasag-turtle.png",
     alt: "발리카삭 섬 산호 위를 유영하는 바다거북",
-    note: "보호구역의 산호 정원 위로 바다거북이 천천히 지나가는 평온한 순간을 만납니다."
+    note: "보호 해역의 산호 정원 위를 바다거북이 유유히 유영하는, 고요하고 평온한 순간입니다."
   }
 ];
 
@@ -31,7 +31,7 @@ export function MarineHighlightsSection() {
             해양 하이라이트
           </p>
           <h2 className="mt-5 text-balance text-4xl font-semibold leading-tight text-white md:text-6xl">
-            각기 다른 리듬을 가진 세 가지 대표 해양 경험.
+            세 가지 다른 리듬의 해양 경험
           </h2>
         </div>
 

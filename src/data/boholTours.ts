@@ -25,10 +25,10 @@ export const boholTourTypes: TourType[] = [
     name: "보홀 헤리티지 육상 투어",
     region: "보홀 하이랜드",
     category: "heritage",
-    heroImage: "/images/bohol/chocolate-hills.jpg",
+    heroImage: "/images/bohol/chocolate-hills.png",
     themeKeyword: "오래된 풍경",
     shortDescription:
-      "초콜릿 힐, 안경원숭이, 그리고 오랜 시간에 걸쳐 만들어진 섬의 지질학적 풍경을 만납니다.",
+      "초콜릿 힐과 안경원숭이, 오랜 세월이 빚어낸 섬의 지질 풍경을 천천히 만납니다.",
     conservationNote:
       "민감한 지역에서 서식지 존중과 낮은 영향을 우선하도록 구성됩니다.",
     isActive: true,
@@ -39,13 +39,13 @@ export const boholTourTypes: TourType[] = [
   {
     id: "tour-napaling",
     slug: "napaling-sardine-run",
-    name: "나팔린 정어리떼 투어",
+    name: "나팔링 정어리떼 투어",
     region: "보홀 팡라오",
     category: "marine",
     heroImage: "/images/bohol/napaling-sardines.png",
     themeKeyword: "은빛 물결",
     shortDescription:
-      "햇살을 따라 움직이는 정어리떼가 리듬과 규모, 몰입감을 만드는 해양 경험입니다.",
+      "은빛 햇살을 따라 물결치듯 움직이는 정어리떼. 그 규모와 리듬이 만드는 압도적인 해양 경험입니다.",
     conservationNote:
       "차분한 입수, 리프를 보호하는 움직임, 적절한 거리 유지가 브리핑의 핵심입니다.",
     isActive: true
@@ -59,7 +59,7 @@ export const boholTourTypes: TourType[] = [
     heroImage: "/images/bohol/balicasag-turtle.png",
     themeKeyword: "바다의 수호자",
     shortDescription:
-      "맑은 바다와 산호 정원, 보호 해역을 천천히 유영하는 바다거북을 만납니다.",
+      "투명한 바다와 산호 정원, 보호 해역을 유유히 유영하는 바다거북과 함께하는 시간입니다.",
     conservationNote:
       "해양 보호구역 가이드라인, 날씨, 현지 수용 가능 인원에 따라 운영됩니다.",
     isActive: true,

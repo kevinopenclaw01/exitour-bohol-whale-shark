@@ -5,7 +5,7 @@ const principles = [
   "자연스러운 만남",
   "제한된 인원",
   "존중하는 거리",
-  "지역 해양 보호"
+  "지역 해양 보전"
 ];
 
 export function PhilosophySection() {
@@ -16,13 +16,16 @@ export function PhilosophySection() {
           <p className="text-xs font-semibold text-cyan-200/70">
             책임 있는 만남의 원칙
           </p>
-          <h2 className="mt-5 text-balance text-4xl font-semibold leading-tight text-white md:text-6xl">
-            우리는 고래상어를 길들이지 않습니다. 잠시 그들의 바다에 초대될 뿐입니다.
+          <h2 className="mt-5 text-4xl font-semibold leading-tight text-white md:text-6xl">
+            <span className="block">우리는 고래상어를</span>
+            <span className="block">길들이지 않습니다.</span>
+            <span className="block">잠시 그들의 바다에</span>
+            <span className="block">초대될 뿐입니다.</span>
           </h2>
           <p className="mt-7 text-lg leading-8 text-slate-300">
             알버 포인트에서의 여정은 구경거리가 아니라 잠시 멈추는 시간에 가깝습니다.
-            바다의 흐름이 만남의 속도를 정하고, 가이드는 적절한 거리와 조용한 움직임,
-            그리고 거대한 생명을 존중하는 태도를 준비합니다.
+            바다의 흐름이 만남의 속도를 결정하고, 가이드는 적절한 거리와 조용한 움직임으로
+            거대한 생명에 대한 존중을 이끕니다.
           </p>
           <p className="mt-5 text-base leading-7 text-slate-400">
             이 경험은 공연이 아닙니다. 자연을 있는 그대로 마주할 수 있는 드문 허락입니다.

@@ -2,8 +2,7 @@ import { boholTourTypes } from "@/data/boholTours";
 
 const imageMap: Record<string, string[]> = {
   "tour-heritage-land": [
-    "/images/bohol/chocolate-hills.jpg",
-    "/images/bohol/tarsier.jpg"
+    "/images/bohol/chocolate-hills.png"
   ],
   "tour-napaling": ["/images/bohol/napaling-sardines.png"],
   "tour-balicasag": ["/images/bohol/balicasag-turtle.png"]
@@ -20,11 +19,11 @@ export function ThreePillarsSection() {
             보홀을 이루는 세 가지 장면
           </p>
           <h2 className="mt-5 text-balance text-4xl font-semibold leading-tight text-white md:text-6xl">
-            보홀은 단순한 목적지가 아닙니다.
+            보홀은 단순한 여행지가 아닙니다.
           </h2>
           <p className="mt-6 text-lg leading-8 text-slate-300">
-            오래된 지형과 살아 있는 리프, 그리고 움직이는 보호구역이 함께 만드는 섬입니다.
-            각각의 여정은 고래상어 투어를 단순한 체크리스트가 아닌 더 넓은 보홀 경험으로 이어줍니다.
+            오랜 세월이 빚어낸 지형과 살아 숨 쉬는 리프, 그리고 생동하는 해양 보호구역이 함께 어우러진 섬입니다.
+            각각의 여정은 고래상어 투어를 완수해야 할 일정이 아닌, 보홀이라는 섬 전체를 느끼는 경험으로 이어줍니다.
           </p>
         </div>
 
@@ -62,7 +61,7 @@ export function ThreePillarsSection() {
                   type="button"
                   className="mt-6 inline-flex w-full items-center justify-center rounded-full border border-cyan-100/30 px-4 py-3 text-xs font-semibold text-cyan-50 transition hover:bg-cyan-100 hover:text-slate-950 focus:outline-none focus:ring-2 focus:ring-cyan-200 focus:ring-offset-2 focus:ring-offset-slate-950"
                 >
-                  여정에 추가하기
+                  예약하기
                 </button>
               </div>
             </article>
