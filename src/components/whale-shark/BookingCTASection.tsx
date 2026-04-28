@@ -12,8 +12,10 @@ export function BookingCTASection({ bookingStatus }: BookingCTASectionProps) {
           <p className="text-xs font-semibold text-cyan-200/70">
             예약 가능 여부 문의
           </p>
-          <h2 className="mt-5 text-balance text-4xl font-semibold leading-tight text-white md:text-6xl">
-            각 시간대 정원이 제한됩니다. 미리 문의 주세요
+          <h2 className="mt-5 text-4xl font-semibold leading-tight text-white md:text-6xl">
+            <span className="block">시간대별</span>
+            <span className="block">정원제한 있습니다.</span>
+            <span className="block">미리문의 주세요</span>
           </h2>
           <p className="mt-6 text-lg leading-8 text-slate-300">
             경험의 질과 바다를 지키기 위해 예약 가능 인원은 제한됩니다.
